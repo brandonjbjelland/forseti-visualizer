@@ -15,6 +15,7 @@
 # limitations under the License.
 
 source utils/version_utils.sh
+PROJECT_ID=$(gcloud config get-value project)
 source source.env
 
 DIST_UI_INCLUDE_DIRECTORY_NAME="dist-forseti-visualizer-ui"
